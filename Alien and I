@@ -1,0 +1,35 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+  string name, planet, color, emotion, yourname;
+
+  cout << "Enter your name: ";
+  getline(cin, yourname);
+
+  cout << "Enter the name of an alien: ";
+  getline(cin, name);
+
+  cout << "Enter the name of the alien's planet: ";
+  getline(cin, planet);
+
+  cout << "Enter the color of the alien: ";
+  getline(cin, color);
+
+  cout << "Enter an emotion the alien is feeling: ";
+  getline(cin, emotion);
+
+  cout << endl; 
+
+  cout << "There once was an alien named " << name << " from the planet " << planet << "." << endl;
+  cout << name << " was a " << color << " alien and was feeling very " << emotion << "." << endl;
+  cout << "One day, while walking on the surface of " << planet << ", " << name << " stumbled upon a strange object." << endl;
+  cout << "Upon closer inspection, " << name << " realized that it was a spaceship from Earth!" << endl;
+  cout << "Excited by this discovery, " << name << " decided to hop on board and see where it would take them." << endl;
+  cout << "Upon  " << name << "'s arival, he met a strange fellow named "<< yourname << "." << endl;
+  cout << "They became best of friends and were able to soon explore the whole galaxy together. " << endl;
+  cout << "And so, " << " they embarked on an adventure through the vast reaches of space and time." << endl;
+
+  return 0;
+}
